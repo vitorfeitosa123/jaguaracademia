@@ -1,0 +1,203 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0014)about:internet -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Jaguar Academia Ltda.</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">td img {display: block;}</style>
+<!--Fireworks CS3 Dreamweaver CS3 target.  Created Thu Feb 14 00:29:04 GMT-0300 (Hora oficial do Brasil) 2013-->
+
+
+<link rel="stylesheet" href="estilo_menu.css" />
+<!-- link menu css --> 
+
+<style type="text/css">
+<!--
+body {
+	background-image: url(images/fundo_teste_jaguar.jpg);
+	margin-top: 0%;
+}
+body,td,th {
+	color: #36F;
+	font-size: 18px;
+}
+strong {
+	font-family: Georgia, Times New Roman, Times, serif;
+}
+-->
+</style>
+<!-- script para validar formulario --> 
+<script type="text/javascript">
+//---- script para validaçao de email e contato    
+function validaForm(){
+          d = document.contato;
+		   //validar nome completo
+           if (d.nome.value == ""){
+                  alert("O campo nome deve ser preenchido!");
+                  d.nome.focus();
+                  return false;
+     }
+	  //validar email
+      if (d.email.value == ""){
+               alert("O campo " + d.email.name + " deve ser preenchido!");
+               d.email.focus();
+               return false;
+      }
+      //validar email(verificao de endereco eletrônico)
+      parte1 = d.email.value.indexOf("@");
+      parte2 = d.email.value.indexOf(".");
+      parte3 = d.email.value.length;
+      if (!(parte1 >= 3 && parte2 >= 6 && parte3 >= 9)) {
+               alert ("O campo " + d.email.name + " deve  conter um endereco eletronico!     'exemplo: maria_40uol.com.br'");
+               d.email.focus();
+               return false;
+     }
+	 //validar telefone
+     if (d.telefone.value == "" || d.telefone.value.length <=7 ){
+	                        // o comando \n serve para pular linha constante dentro do alert
+              alert ("O campo " + d.telefone.name + " deve ser preenchido corretamente \n               não ultilize (<!-#$%->*) , apenas numeros.  ");
+              d.telefone.focus();
+             return false;
+     }
+	  //validar telefone(verificacao se contem apenas numeros)
+     if (isNaN(d.telefone.value)){
+                alert ("O campo " + d.telefone.name + " deve conter apenas numeros!");
+                d.telefone.focus();
+                return false;
+     }
+	 //validar celular
+     if (d.celular.value == "" || d.celular.value.length <=7 ){
+	                        // o comando \n serve para pular linha constante dentro do alert
+              alert ("O campo " + d.celular.name + " deve ser preenchido corretamente \n               não ultilize (<!-#$%->*) , apenas numeros.  ");
+              d.celular.focus();
+             return false;
+     }
+	  //validar celular(verificacao se contem apenas numeros)
+     if (isNaN(d.celular.value)){
+                alert ("O campo " + d.celular.name + " deve conter apenas numeros!");
+                d.celular.focus();
+                return false;
+     }
+	 //validar Assunto
+           if (d.assunto.value == ""){
+                  alert("O campo Assunto deve ser preenchido!");
+                  d.assunto.focus();
+                  return false;
+     }
+	 //validar <textarea>
+	 campo = document.contato.mensagem.value;
+     if ( campo == "") {
+     alert("Escreva algo no campo de menssagem antes de enviar");
+     contato.mensagem.focus();
+     return false;
+	 }
+	
+     return true;
+		   
+}//fecha o bloco da funçao validar contato
+
+</script>
+<link rel="stylesheet" href="css/queryLoader.css" type="text/css" />
+</head>
+<body bgcolor="#ffffff">
+<table width="810" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+<!-- fwtable fwsrc="Layout Fatiado.png" fwpage="Página 1" fwbase="index.jpg" fwstyle="Dreamweaver" fwdocid = "1020568170" fwnested="0" -->
+  <tr>
+    <td width="806" valing="top"><strong>Av.Alexios Jafet&nbsp;&nbsp;&nbsp; nº 820 -&nbsp;&nbsp;Jaraguá -&nbsp;&nbsp;&nbsp;Jd Ipanema -&nbsp;&nbsp;São Paulo - &nbsp;&nbsp;&nbsp;Tel.(11) 3943 -7615</strong></td></tr>-
+  <tr>
+   <td><img src="images/spacer.gif" width="600" height="1" border="0" alt="" /></td>
+   <td width="10"><img src="images/spacer.gif" width="1" height="1" border="0" alt="" /></td>
+  </tr>
+
+  <tr>
+   <td valign="top"><img src="images/banner3.jpg" width="806" height="194" /></td>
+  </tr>
+  <tr>
+   <td bgcolor="#E4EBF3">
+   
+   <div id="tabs5">
+                        <ul>
+                                <!-- CSS Tabs -->
+                                <a href="index.html"><span>Home</span></a>
+                          <li></li>
+                          <li><a href="galeria.html"><span>Galeria</span></a></li>
+                          <li><a href="atividades.html"><span>Atividades</span></a></li>
+                          <li><a href="horarios.html"><span>Horários</span></a></li>
+                          <li><a href="promocoes.html"><span>Promoções</span></a></li>
+                          <li><a href="localizacao.html"><span>Localização</span></a></li>
+                          <li><a href="contato.html"><span>Contato</span></a></li>
+
+                        </ul>
+      </div>
+   
+   
+   &nbsp;</td>
+   <td><img src="images/spacer.gif" width="1" height="33" border="0" alt="" /></td>
+  </tr>
+  <tr>
+   <td>
+   
+   <object type="application/x-shockwave-flash" data="dewplayer.swf?son=musica/teste.mp3 " width="200" height="20"> <param name="movie" value="dewplayer.swf?son=musica/teste.mp3" /> </object>
+   
+   </td>
+   <td><img src="images/spacer.gif" width="1" height="21" border="0" alt="" /></td>
+  </tr>
+  <tr>
+   <td valign="top">
+   
+<?
+
+$mensagem = "Nome : " . $_POST['nome'] . "\n" ;
+
+// variavel mensagem concatenando as informações fornecidas
+// pelo usuario . 
+
+$mensagem .= " Email :   " . $_POST['email']    . "\n";
+$mensagem .= " Telefone :" . $_POST['telefone'] . "\n";
+$mensagem .= " Celular :"  . $_POST['celular '] . "\n";
+$mensagem .= " Assunto : " . $_POST['assunto']  . "\n";
+$mensagem .= "Mensagem : " . $_POST['campo']    . "\n";
+
+$headers= " ";
+
+$emailsender      =  "comercial@jaguaracademia.com.br";
+
+$emaildestinatario = "comercial@jaguaracademia.com.br";
+
+
+$assunto = " Mensagem do Site www.jaguaracademia.com.br " ; 
+
+if(!mail($emaildestinatario, $assunto , $mensagem , $headers ,"-r".$emailsender)){
+
+  $headers .= "Return-Path : " . $emailsender . $quebra_linha ; 
+
+}
+
+echo "<script>location.href='sucesso.html'</script>";
+
+?>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   &nbsp;</td>
+   <td>&nbsp;</td>
+  </tr>
+  <tr>
+   <td><img src="images/rodape.jpg" width="795" height="45" /></td>
+   <td><img src="images/spacer.gif" width="1" height="45" border="0" alt="" /></td>
+  </tr>
+</table>
+</body>
+</html>
